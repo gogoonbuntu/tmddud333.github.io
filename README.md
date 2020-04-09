@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# 리플릿 Repl.it 에서 .replit 파일 RUN 설정하는 방법!!!
 
-You can use the [editor on GitHub](https://github.com/tmddud333/tmddud333.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+요즘 repl.it을 참 애용합니다.
+[image](https://pbs.twimg.com/profile_images/1181584215818637318/5PSC29ff_400x400.jpg)
 
-### Markdown
+깃허브에서 repo를 만들고,
+빈 repo를 import 해서 repl.it에서 편집합니다.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+하지만 할 때마다 .replit 에서 run 을 설정하라고 하는데,
+언어가 바뀔 때 뭘 설정해야할 지 모르겠더라구요...
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## 찾아봐도 자료는 없고 답답해서 내가 정리해서 올립니다.
 
-- Bulleted
-- List
+모든 첫 파일이름은 main으로 한다고 가정합니다. (index.html제외)
 
-1. Numbered
-2. List
+## C :
+run = "clang-7 -pthread -lm -o main main.c \n ./main"
 
-**Bold** and _Italic_ and `Code` text
+## JAVA :
+run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . Main.java \n java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main"
 
-[Link](url) and ![Image](src)
-```
+## python :
+run="python main.py"
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## HTML CSS JS :
+run = "index.html"
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tmddud333/tmddud333.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
