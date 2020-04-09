@@ -12,20 +12,28 @@
 언어가 바뀔 때 뭘 설정해야할 지 모르겠더라구요...
 
 
+
+
  > 찾아봐도 자료는 없고 답답해서 내가 정리해서 올립니다.
+ 
+ 
+ 
+ 
 
 모든 첫 파일이름은 main으로 한다고 가정합니다. (index.html제외)
 
-## C :
+### C :
 run = "clang-7 -pthread -lm -o main main.c \n ./main"
 
-## JAVA :
+### JAVA :
 run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . Main.java \n java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main"
 
-## python :
+### python :
 run="python main.py"
 
-## HTML CSS JS :
+### HTML CSS JS :
 run = "index.html"
 
 
+제가 주로 쓰는 언어들이라 해놨는데,
+더 필요하면 업데이트 하겠습니다.
