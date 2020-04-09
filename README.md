@@ -3,7 +3,7 @@
 
 요즘 repl.it을 참 애용합니다.
 
-![image](https://pbs.twimg.com/profile_images/1181584215818637318/5PSC29ff_400x400.jpg)
+<img src = "https://pbs.twimg.com/profile_images/1181584215818637318/5PSC29ff_400x400.jpg" width:100px>
 
 깃허브에서 repo를 만들고,
 빈 repo를 import 해서 repl.it에서 편집합니다.
