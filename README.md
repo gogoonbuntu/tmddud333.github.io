@@ -4,7 +4,7 @@
 요즘 repl.it을 참 애용합니다.
 
 <a href="#">
- <img src="https://pbs.twimg.com/profile_images/1181584215818637318/5PSC29ff_400x400.jpg" width="30px">
+ <img src="https://pbs.twimg.com/profile_images/1181584215818637318/5PSC29ff_400x400.jpg" width="100px">
 </a>
 
 깃허브에서 repo를 만들고,
